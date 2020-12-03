@@ -1,0 +1,379 @@
+@charset "utf-8";
+
+@import "./default-style";
+@import "./custom-icons";
+
+/* customs general css */
+
+.display_show {
+  display: block;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+.main-middle-area.pt-custom-0 {
+  padding-top: 0;
+}
+
+.mlr-5 {
+  margin-right: -5px !important;
+  margin-left: -5px !important;
+}
+
+.plr-5 {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.mlr-8 {
+  margin-right: -8px !important;
+  margin-left: -8px !important;
+}
+
+.plr-8 {
+  padding-right: 8px !important;
+  padding-left: 8px !important;
+}
+
+.mlr-10 {
+  margin-right: -10px !important;
+  margin-left: -10px !important;
+}
+
+.plr-10 {
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.mlr-20 {
+  margin-right: -20px !important;
+  margin-left: -20px !important;
+}
+
+.plr-20 {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
+.btn.btn-white {
+  background: #fff;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #57d500;
+  border: 1px solid #fff;
+  letter-spacing: 0;
+  min-height: 50px;
+  padding: 6px 30px 5px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px 0 rgba(84, 200, 1, 0.1);
+  }
+
+  &.min-width-160 {
+    min-width: 160px;
+  }
+}
+
+.btn-color-primary {
+  background: #54c801;
+  border-radius: 28px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  border: 1px solid #54c801;
+  letter-spacing: 0;
+  min-height: 50px;
+  padding: 6px 30px 5px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.8s;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px 0 rgba(84, 200, 1, 0.2);
+  }
+
+  &.min-width-160 {
+    min-width: 160px;
+  }
+}
+
+/* date-picker */
+.gj-picker-md {
+  color: #767676;
+  border: 1px solid #e0e0e0;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 12px;
+
+  .fa_left_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+  }
+
+  .fa_right_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px;
+  }
+
+  table tr td div,
+  table tr th div {
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  table tr td.selected.gj-cursor-pointer div {
+    background: #54c801;
+    color: #fff;
+    border-radius: 50%;
+  }
+
+  table tr td.today:hover div,
+  table tr td.today:focus div {
+    background: #54c801;
+    color: #fff;
+    border-radius: 100%;
+  }
+
+  table tr td.today div {
+    color: #54c801;
+    background: #fff;
+    border: 1px solid #54c801;
+  }
+
+  td.today.gj-cursor-pointer {
+    div {
+      background: #fff;
+      color: #54c801;
+      border-radius: 100%;
+      vertical-align: middle;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .gj-picker {
+    margin: -15px 0 0 0;
+  }
+
+  table tr td.today.gj-cursor-pointer.selected div {
+    background: #f6f2eb;
+    border-radius: 50%;
+    color: #000;
+  }
+
+  tr.week-days {
+    color: #bfbfbf;
+    font-size: 12px;
+  }
+
+  td.today.gj-cursor-pointer.selected {
+    background: #f6f2eb;
+  }
+}
+
+.gj-picker div[role="navigator"] div[role="period"] {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* End of date-picker */
+
+/* Time picker */
+
+.bootstrap-datetimepicker-widget.dropdown-menu {
+  margin: 2px 0;
+  padding: 0;
+  width: auto;
+  min-width: 15em;
+  border: 1px solid #fafafa;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bootstrap-datetimepicker-widget table td span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+.bootstrap-datetimepicker-widget .timepicker-hour,
+.bootstrap-datetimepicker-widget .timepicker-minute,
+.bootstrap-datetimepicker-widget .timepicker-second {
+  width: 45px;
+  font-weight: 700;
+  height: 45px;
+  line-height: 45px;
+  vertical-align: middle;
+  padding: 2px;
+}
+
+.bootstrap-datetimepicker-widget .btn-primary {
+  color: #fff;
+  background-color: #54c801;
+  border-color: #54c801;
+  border-radius: 100px;
+  font-weight: 700;
+  padding: 4px;
+  height: 40px;
+  width: 40px;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: #54c801;
+    border-color: #54c801;
+  }
+}
+
+.timepicker .timepicker-picker a.btn {
+  font-size: 20px;
+  padding: 0;
+  color: #54c801;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:after {
+  opacity: 0;
+}
+
+.bootstrap-datetimepicker-widget.dropdown-menu.bottom:before {
+  opacity: 0;
+}
+
+/* End of Time picker */
+
+/* End of general css */
+.main-middle-area {
+  padding: 90px 0 0 0;
+  position: relative;
+}
+
+@media (min-width: 1025px) {
+  .max-md-1920 {
+    margin: 0 auto;
+    max-width: 1920px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1290px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed-custom {
+    overflow: hidden;
+  }
+
+  .position-fixed-remove {
+    .slideInDown {
+      animation: none;
+    }
+  }
+
+  .main-middle-area {
+    padding: 70px 0 0 0;
+  }
+}
+
+// custom animation
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.slideInDown {
+  -webkit-animation-name: slideInDown;
+  animation-name: slideInDown;
+}
+
+@-webkit-keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInDown {
+  from {
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+} // custom animation
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  body.overflow-fixed {
+    overflow-y: hidden;
+  }
+
+  .position-fixed-custom {
+    overflow: hidden;
+  }
+
+  .position-fixed-remove {
+    .slideInDown {
+      animation: none;
+    }
+  }
+
+  .main-middle-area {
+    padding: 70px 0 0 0;
+  }
+}
