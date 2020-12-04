@@ -187,43 +187,232 @@
   }
 }
 
-.default-hide {
-  display: none;
-}
+.select2-custom-fg {
+  .selectbox-inline {
+    width: 100%;
+  }
 
-.select2-results__option:last-child .btn-new-class {
-  color: inherit;
-  display: inline-block;
-  width: calc(100% + 60px);
-  padding: 10px 30px;
-  margin: -10px -30px;
-}
+  .select-custom2 span.select2-selection.select2-selection--single {
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+    padding: 9px 30px 5px 20px;
+    min-height: 50px;
+    letter-spacing: 0.5px;
+    color: #bfbfbf;
+    background: transparent;
+    border: 1px solid #e9e9e9;
+    box-shadow: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
 
-.select2-update-group {
-  font-family: "PT Sans Narrow", sans-serif;
+  .select-custom2 .select2.select2-container .select2-selection .select2-selection__arrow {
+    width: 41px;
+  }
 
-  &.select2-form-group {
-    span.select2-selection.select2-selection--single {
-      font-size: 18px;
-      font-weight: 700;
-      padding: 4px 50px 4px 12px;
-      min-height: 42px;
-      background: #181818;
-      letter-spacing: 2px;
-      border: 2px solid #181818;
-      border-radius: 0;
+  .select-custom2 .select2-container--default .select2-selection--single .select2-selection__arrow b::before {
+    mask: none;
+    vertical-align: middle;
+    text-align: center;
+    background-color: transparent;
+    transform: none;
+    content: "\f0d7";
+    white-space: nowrap;
+    font-size: 20px;
+    color: #d8d8d8;
+    margin: 8px 0 0 0;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+  }
+
+  .select2-container--default .select2-selection--single .select2-selection__placeholder {
+    color: #bfbfbf;
+  }
+
+  .select2.select2-container .select2-selection .select2-selection__rendered {
+    padding-left: 0;
+  }
+
+  &.error-group {
+    .select-custom2 span.select2-selection.select2-selection--single {
+      border: 1px solid #57d500;
     }
+  }
+}
 
-    .select-custom2 .select2.select2-container .select2-selection .select2-selection__arrow {
-      height: 36px;
-      width: 44px;
+.country-select-group {
+  .flag {
+    border-radius: 0;
+    border: none;
+    transform: scale(0.8);
+    margin-right: 6px;
+    height: 25px;
+  }
 
-      b {
-        justify-content: flex-start;
-        padding: 0 0 0 12px;
+  span.flag-box-span {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+
+    span.flag-box-span {
+      display: inline-block;
+      width: calc(100% - 42px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      min-width: 35px;
+    }
+  }
+
+  .select2.select2-container .select2-selection .select2-selection__rendered {
+    color: #3c454c;
+    line-height: 24px;
+    padding-right: 33px;
+    display: flex;
+    align-items: center;
+
+    .flag-box-span {
+      .flag-box-span {
+        display: none;
       }
     }
   }
+
+  .select2.select2-container {
+    min-width: 85px;
+    max-width: 85px;
+    margin: 0 0 0 0;
+  }
+
+  .select-custom2 span.select2-selection.select2-selection--single {
+    border: 0 solid rgba(142, 152, 160, 0.6);
+    padding: 2px 3px 2px 12px;
+    margin: 0;
+    max-width: 85px;
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .country-box-row {
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    min-height: 40px;
+  }
+
+  .select-country {
+    min-width: 85px;
+    display: inline-block;
+  }
+
+  &.form-group {
+    .form-control-group-flag {
+      padding: 0 0 0 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      width: 100%;
+  
+      .form-control {
+        border: none;
+        margin: 0;
+        min-height: auto;
+        padding: 10px 5px;
+      }
+    }
+
+    &.error-group {
+      .select-custom2 span.select2-selection.select2-selection--single {
+        border: 0 solid #57d500;
+      }
+  
+      .form-control-group-flag {
+        .form-control {
+          border: none;
+        }
+      }
+
+      .country-box-row {
+        border: 1px solid #57d500;
+      }
+    }
+  }
+  
+  .country-code-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(8, 28, 46, 0.7);
+    letter-spacing: 0;
+    padding: 0 10px;
+    min-width: 50px;
+    border-right: 1px solid rgba(8, 28, 46, 0.09);
+  }
+
+  .form-control {
+    border: none;
+    padding: 3px 10px 3px 10px;
+    margin: 0;
+    color: rgba(8, 28, 46, 0.6);
+  }
+}
+
+.active-flag-select2-dropdown {
+  transition: all 0.9s;
+
+  &.select2-container--open {
+    margin: 15px 0 0 0;
+    transition: all 0.9s;
+  }
+
+  .flag {
+    border-radius: 0;
+    border: none;
+    transform: scale(0.8);
+    margin-right: 10px;
+    height: 25px;
+  }
+
+  span.flag-box-span {
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+
+    span.flag-box-span {
+      display: inline-block;
+      width: calc(100% - 42px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .select2-results__option {
+    padding: 3px 11px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  &.select2-container .select2-dropdown {
+    background: transparent;
+    border: none;
+    margin-top: -5px;
+    min-width: 140px;
+  }
+
+
+}
+
+.default-hide {
+  display: none;
 }
 
 @media (max-width: 767px) {
@@ -234,15 +423,6 @@
     font-size: 14px;
     letter-spacing: 0.5px;
   }
-
-  .select2-form-group.select2-update-group {
-    .select-custom2 {
-      span.select2-selection.select2-selection--single {
-        font-size: 16px;
-        padding: 3px 40px 3px 7px;
-      }
-    }
-  }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -252,14 +432,5 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.5px;
-  }
-
-  .select2-form-group.select2-update-group {
-    .select-custom2 {
-      span.select2-selection.select2-selection--single {
-        font-size: 16px;
-        padding: 3px 40px 3px 7px;
-      }
-    }
   }
 }
