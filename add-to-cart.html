@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Add to cart | EzierCode</title>
+  <meta content='initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width' name='viewport' />
+  <meta name="theme-color" content="#54C801">
+  <meta name="msapplication-navbutton-color" content="#54C801">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#54C801">
+  <link href='assets/images/favicon.png' rel='shortcut icon'>
+  <link href="assets/css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/raleway/raleway-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/montserrat/montserrat-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/fonts/poppins/poppins-font.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/all.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/line-awesome.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/select2.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/select-custom.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/select2-custom.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/flag.css" rel="stylesheet" >
+  <link href="assets/css/header.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/footer.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/product-style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <script src="assets/js/modernizr.js"></script>
+</head>
+
+<body>
+
+  <div id="wrapper" class="wrapper home-wrapper">
+
+    <header>
+      <div class="header-div header-div2 header-pattern-div clearfix">
+        <div class="inner-top-header-div clearfix">
+          <div class="container-fluid container-fluid-1920">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+                <div class="header-container">
+
+                  <div class="logo-div">
+                    <a class="logo_link clearfix" href="index.html">
+                      <img src="assets/images/logo.png" class="img-fluid logo_img main-logo-icon" alt="logo" />
+                    </a>
+                  </div>
+
+                  <nav class="nav-center-div">
+                    <div class="top-nav1">
+                      <div class="cd-shadow-layer"></div>
+                      <div class="nav-m-bar">
+                        <a onclick="openNav()" class="opennav" data-placement="bottom" title=""
+                          data-original-title="Menu">
+                          <i class="menu-bars menu-icon"></i>
+                        </a>
+                      </div>
+
+                      <div class="nav-div clearfix" id="mySidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                        <div class="row-nav-div">
+                          <div class="left-side">
+                            <ul class="nav ullist-inline" id="nav-res">
+                              <li><a href="index.html" class="nav-link">Home</a></li>
+                              <li><a href="about.html" class="nav-link">About Me</a></li>
+                              <li><a href="#" class="nav-link">Services</a></li>
+                              <li><a href="#" class="nav-link">Shop</a></li>
+                              <li><a href="#" class="nav-link">Free Chart</a></li>
+                            </ul>
+                          </div>
+
+                          <div class="right-side">
+                            <div class="right-nf-icon-div">
+                              <div class="icon-row-nf">
+                                <div class="icon-box-nf">
+                                  <a href="#" class="link bag-icon-link"> <span class="bg-custom-icon bag-icon"></span>
+                                    <span class="text-count-n"></span> </a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="auth-button-nav-div">
+                              <div class="btn-div mr-40">
+                                <a href="sign-up.html" class="btn btn-white btn-white-outline min-width-160"> Sign Up </a>
+                              </div>
+
+                              <div class="btn-div">
+                                <a href="login.html" class="btn btn-color-primary min-width-160"> Login </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!--  End of header with navigation div  -->
+    </header>
+
+    <div class="main-middle-area">
+
+      <section class="title-wt-back-section title-back-abs-section">
+        <div class="container-fluid container-fluid-2000">
+          <div class="title-wt-back-div">
+            <div class="row align-center-row">
+              <div class="col-lg-12 col-md-12">
+                <div class="back-div">
+                  <a href="#" class="link back-link"> <span class="icon-span"> <i class="las la-angle-double-left"></i> </span> <span class="text">Back</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="pro-booking-pay-info-section add-to-cart-pro-section center-abs-container-section">
+        <div class="container container-810">
+          <div class="pro-booking-pay-info-div">
+            <div class="row">
+              <div class="col-lg-12 col-md-12">
+
+                <div class="pro-booking-pay-info-root add-to-cart-root">
+
+                  <div class="custom-title-div">
+                    <h2>My Bag</h2>
+                  </div>
+
+                  <div class="shop-product-root-common">
+
+                    <div class="row row-sp-root">
+                      <div class="col-lg-12 col-md-12 col-sp-12-root">
+  
+                        <div class="shop-product-card-box">
+                          <div class="shop-product-card-box-row">
+  
+                            <div class="shop-product-thumb-div">
+                              <div class="img-div">
+                                <img src="assets/images/default-photo-img.jpg" alt="img" class="img-fluid img-sp" />
+                              </div>
+                            </div>
+  
+                            <div class="sp-desc-div">
+                              <div class="sp-desc-row-div">
+                                <div class="sp-desc-top-div">
+                                  <div class="sp-desc-top-left-div">
+                                    <h3> <a href="#" class="link">Item Name</a> </h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+                                  </div>
+                                  <div class="sp-desc-top-right-div">
+                                    <div class="sp-money-div">
+                                      <h4>S$248</h4>
+                                    </div>
+                                    <div class="button-div">
+                                      <a href="#" class="btn btn-white btn-white-outline btn-add-cart">ADD TO CART</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+  
+                          </div>
+                        </div>
+  
+                      </div>
+                    </div>
+  
+                  </div>
+                  
+                  <div class="row pro-pay-row">
+                    <div class="col-lg-12 col-md-12 pro-pay-8">
+
+                      <div class="pro-pay-left-root">
+                        <div class="pro-pay-left-inner">
+
+                          <div class="form-div your-details-form-div border-bottom-01">
+                            
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12">
+                                <div class="prag-top-text-div">
+                                  <p>Existing Customer? <a href="login.html" class="link link-btn">Click here to login</a></p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12">
+                                <div class="header-div-box">
+                                  <h4>Your Details</h4>
+                                  <p>Please fill in your details for payment purposes</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label for="">FIRST NAME</label>
+                                  <div class="input-control-div">
+                                    <input type="text" class="form-control" placeholder="Enter first name" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label for="">LAST NAME</label>
+                                  <div class="input-control-div">
+                                    <input type="text" class="form-control" placeholder="Enter last name" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label for="">EMAIL</label>
+                                  <div class="input-control-div">
+                                    <input type="email" class="form-control" placeholder="Enter email address" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label for="">CONFIRM EMAIL</label>
+                                  <div class="input-control-div">
+                                    <input type="email" class="form-control" placeholder="Enter confirm email address" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group select2-custom-fg country-select-group">
+                                  <label for="">PHONE</label>
+                                  <div class="country-box-row">
+                                    <div class="select-box select-custom2 select-custom2-general">
+                                      <div class="select-country">
+                                        <select name="" id="select-country-number" class="form-control"></select>
+                                      </div>
+                                      <div class="form-control-group-flag">
+                                        <input type="text" class="form-control" placeholder="Enter phone number" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group">
+                                  <label for="">ADDRESS</label>
+                                  <div class="input-control-div">
+                                    <input type="text" class="form-control" placeholder="Enter address" />
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="form-div card-info-details-form-div">
+                            
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12">
+                                <div class="header-div-box">
+                                  <h4>Payment Information</h4>
+                                  <p>Please fill in your details for your card payment</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+
+                              <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                  <label for="">NAME ON CARD</label>
+                                  <div class="input-control-div">
+                                    <input type="text" class="form-control" placeholder="Enter card holder name" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-12 col-md-12">
+                                <div class="form-group card-number-form-group">
+                                  <label for="">CARD NUMBER</label>
+                                  <div class="input-control-div">
+                                    <div class="row">
+                                      <div class="col-lg-6 col-md-6">
+                                        <input type="text" class="number credit-card-number form-control" id="card-number" name="number" placeholder="xxxx-xxxx-xxxx-xxxx" data-mask="0000 0000 0000 0000" autocomplete="off" maxlength="19">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6">
+                                        <div class="paycard-method-image-list">
+                                          <div class="paycard-method-img-div">
+                                            <img src="assets/images/icons/mastercard.svg" class="img-fluid img-pay-method" alt="img" />
+                                          </div>
+                                          <div class="paycard-method-img-div">
+                                            <img src="assets/images/icons/amex.svg" class="img-fluid img-pay-method" alt="img" />
+                                          </div>
+                                          <div class="paycard-method-img-div">
+                                            <img src="assets/images/icons/visa.svg" class="img-fluid img-pay-method" alt="img" />
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>                              
+
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group card-exp-date-fg">
+                                  <label for="">EXPIRATION DATE</label>
+                                  <div class="input-control-div">
+                                    <div class="row">
+                                      <div class="col-lg-6 col-md-6 col-6">
+                                        <input class="number month-number form-control" type="number" id="month-number" name="number" placeholder="MM" data-mask="00" autocomplete="off" maxlength="2">
+                                      </div>
+                                      <div class="col-lg-6 col-md-6 col-6">
+                                        <input class="number year-number form-control" type="number" id="year-number" name="Year" placeholder="Year" data-mask="0000" autocomplete="off" maxlength="4">
+                                      </div>
+                                    </div>                              
+
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-6 col-md-6">
+                                <div class="form-group cvv-number-form-group">
+                                  <label for="">SECURITY CODE</label>
+                                  <div class="input-control-div">
+
+                                    <div class="cvv-row-group">
+                                      <input type="number" class="number cvv-number form-control" id="cvv-number" name="number" placeholder="CCV" data-mask="000" autocomplete="off" maxlength="3">
+                                      <div class="card-cvv-image-div">
+                                        <div class="card-cvv-img">
+                                          <img src="assets/images/icons/card-back-img.svg" class="img-fluid img-pay-method" alt="img" />
+                                        </div>
+                                      </div>
+                                    </div>                              
+
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+                          <div class="checkout-paypal-div">
+                            <div class="row">
+                              <div class="col-lg-12 col-md-12">
+                                <div class="header-div-box">
+                                  <h4>Or checkout with Paypal</h4>
+                                  <p>Clicking the below icon will redirect you to the paypal landing page </p>
+                                </div>
+                                <div class="paypal-btn-div">
+                                  <a href="#" class="paypal-link-btn"> <img src="assets/images/icons/paypal-logo.svg" class="img-fluid img-paypal" alt="paypal" /> </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="desc-text-root-common">
+                            <div class="desc-heading-div">
+                              <h3>TERMS & CONDITIONS</h3>
+                            </div>
+                            <div class="desc-body-div">
+
+                              <div class="desc-row-text-div">
+                                <h5>Submission of Appointment</h5>
+                                <p>a) Per confirmation and submission of appointment booking / course booking is for one (1) person only. </p>
+                                <p>b) A separate submission or confirmation is required for the second person, if any. </p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Payment for Appointment</h5>
+                                <p>a) For credit card payment, the full payment has to be made through paypal upon submission of appointment.</p>
+                                <p>b) For cash payment, the full payment has to be made during the booked appointment.</p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Payment for Course</h5>
+                                <p>a) For credit card payment, the full payment has to be made through paypal upon submission for course registration. </p>
+                                <p>b) Any cash payment has to be made upfront at least 3 days prior to the start date of the selected course at our office.</p>
+                                <p>c) The payment paid is inclusive of course material.</p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Confirmation of Appointment / Course</h5>
+                                <p>a) A confirmation email with appointment / course details will be sent to you once the appointment / booking of course is accepted.</p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Cancellation of Appointment / Course</h5>
+                                <p>a) Cancellation of appointment / course can be made through phone call, at least 3 working days prior to the date of appointment / course.</p>
+                                <p>b) Any cancellation request later than stated period, up to 1 day before the appointment / course date would be deemed as late cancellation, and only 70% of the received payment will be refunded.</p>
+                                <p>c) There will not be any refund made for cancellation on the date of appointment / course.</p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Punctuality for Appointment / Course</h5>
+                                <p>a) Kindly be punctual for the appointment.</p>
+                                <p>b) It would be best if you could attend the course 10 minutes prior to the time of course.</p>
+                                <p>c) Should you be late on the day of appointment, kindly give us a call at least 30 minutes before the start time of the appointment. </p>
+                                <p>d) The course will commence according to the stated start time. The trainer reserves the right to not allow entrance of late attendees who are at least 30 minutes late.</p>
+                              </div>
+                              
+                              <div class="desc-row-text-div">
+                                <h5>Missed Appointment / Course</h5>
+                                <p>a) There will be no refund of Appointment / Course fee if you do not turn up on the date and time of the Appointment / Course (after 30 minutes from the time of appointment on that day). Request for a Rescheduled Appointment</p>
+                                <p>b) The request has to be made at least 3 days prior to the date of Appointment, and the scheduled date will be subjected to Master Chua’s availability.</p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Amendment to Appointment / Course details</h5>
+                                <p>a) Ezier Code reserves the right to amend details of the appointment / course, or cancel the appointment / course.</p>
+                                <p>b) In the event that Ezier Code is unable to provide an alternative, payment received for respective appointment / course shall be refunded in full.</p>
+                                <p>c) In the event you failed to turn up for your appointment / course, there will be no refund.</p>
+                              </div>
+
+                              <div class="desc-row-text-div">
+                                <h5>Collection of Book</h5>
+                                <p>a) For any purchase made for the book while booking an appointment or course, the book will be self-collected upon arrival for appointment / course.</p>
+                              </div>
+
+                            </div>    
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer>
+      <div class="footer-div">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12">
+
+              <div class="footer-content-row">
+                <div class="row">
+
+                  <div class="col-lg-12 col-md-12 p-0">
+                    <div class="whatsapp-div">
+
+                      <div class="whatsapp-left-div">
+                        <div class="img-div"> <img src="assets/images/footer-img.png" class="img-fluid img-footer"
+                            alt="img" /> </div>
+                        <div class="wh-app-div">
+                          <div class="link-box">
+
+                            <span class="icon-span">
+                              <i class="fab fa-whatsapp"></i>
+                            </span>
+                            <span class="text-light-wa">WhatsApp Me</span>
+                            <a href="#" class="link whatsapp-link">
+                              +65 9848 9898
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12 col-md-12 p-0">
+                    <div class="color-footer-row"></div>
+                  </div>
+
+                  <div class="col-lg-12 col-md-12">
+                    <div class="footer-copyright-div">
+                      <div class="footer-left-cp-div">
+                        <p>©2020 <a href="#" class="link">EzierCode</a>. All rights reserved.</p>
+                      </div>
+                      <div class="footer-right-cp-div">
+                        <p>
+                          <a href="#" class="link-a">Terms and Conditions</a>
+                          <span class="vline">|</span>
+                          <a href="#" class="link-a">Privacy Policy</a>
+                        </p>
+
+                        <div class="social-icon-div-root">
+                          <ul class="footer-social-ul">
+                            <li>
+                              <a href="#" class="social-link facebook-link"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div><!-- end of wrapper -->
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/select2.full.js"></script>
+  <script src="assets/js/get-flag.js"></script>
+  <script src="assets/js/jquery.mask.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $(".js-select2").select2({
+        minimumResultsForSearch: -1
+      });
+
+      $("#select-enquiry01").select2({
+        placeholder: "General Enquiry",
+        minimumResultsForSearch: -1,
+        dropdownPosition: 'below',
+      });
+
+      $('#select-enquiry01 + .select2').click(function () {
+        $(".select2-container").addClass("active-select2-dropdown active-select2-dropdown2");
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1067,7 +1067,7 @@
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (min-height: 1000px) {
   .banner-content-left-section .image-banner-div .image-banner-inner .image-banner-fluid {
     height: 100%;
     width: 100%;
