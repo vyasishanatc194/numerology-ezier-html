@@ -236,7 +236,7 @@
 .bootstrap-datetimepicker-widget table th.disabled,
 .bootstrap-datetimepicker-widget table th.disabled:hover {
   background: none;
-  color: #777777;
+  color: #777;
   cursor: not-allowed;
 }
 .bootstrap-datetimepicker-widget table th.prev::after {
@@ -265,7 +265,7 @@
   cursor: pointer;
 }
 .bootstrap-datetimepicker-widget table thead tr:first-child th:hover {
-  background: #eeeeee;
+  background: #eee;
 }
 .bootstrap-datetimepicker-widget table td {
   height: 54px;
@@ -276,7 +276,7 @@
   font-size: .8em;
   height: 20px;
   line-height: 20px;
-  color: #777777;
+  color: #777;
 }
 .bootstrap-datetimepicker-widget table td.day {
   height: 20px;
@@ -287,12 +287,12 @@
 .bootstrap-datetimepicker-widget table td.hour:hover,
 .bootstrap-datetimepicker-widget table td.minute:hover,
 .bootstrap-datetimepicker-widget table td.second:hover {
-  background: #eeeeee;
+  background: #eee;
   cursor: pointer;
 }
 .bootstrap-datetimepicker-widget table td.old,
 .bootstrap-datetimepicker-widget table td.new {
-  color: #777777;
+  color: #777;
 }
 .bootstrap-datetimepicker-widget table td.today {
   position: relative;
@@ -320,7 +320,7 @@
 .bootstrap-datetimepicker-widget table td.disabled,
 .bootstrap-datetimepicker-widget table td.disabled:hover {
   background: none;
-  color: #777777;
+  color: #777;
   cursor: not-allowed;
 }
 .bootstrap-datetimepicker-widget table td span {
@@ -333,7 +333,7 @@
   border-radius: 4px;
 }
 .bootstrap-datetimepicker-widget table td span:hover {
-  background: #eeeeee;
+  background: #eee;
 }
 .bootstrap-datetimepicker-widget table td span.active {
   background-color: #337ab7;
@@ -341,12 +341,12 @@
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .bootstrap-datetimepicker-widget table td span.old {
-  color: #777777;
+  color: #777;
 }
 .bootstrap-datetimepicker-widget table td span.disabled,
 .bootstrap-datetimepicker-widget table td span.disabled:hover {
   background: none;
-  color: #777777;
+  color: #777;
   cursor: not-allowed;
 }
 .bootstrap-datetimepicker-widget.usetwentyfour td.hour {
