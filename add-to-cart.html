@@ -65,8 +65,8 @@
                             <ul class="nav ullist-inline" id="nav-res">
                               <li><a href="index.html" class="nav-link">Home</a></li>
                               <li><a href="about.html" class="nav-link">About Me</a></li>
-                              <li><a href="#" class="nav-link">Services</a></li>
-                              <li><a href="#" class="nav-link">Shop</a></li>
+                              <li><a href="services.html" class="nav-link">Services</a></li>
+                              <li><a href="shop.html" class="nav-link">Shop</a></li>
                               <li><a href="#" class="nav-link">Free Chart</a></li>
                             </ul>
                           </div>
@@ -131,15 +131,15 @@
                     <h2>My Bag</h2>
                   </div>
 
-                  <div class="shop-product-root-common">
+                  <div class="product-cart-root-common">
 
                     <div class="row row-sp-root">
                       <div class="col-lg-12 col-md-12 col-sp-12-root">
   
-                        <div class="shop-product-card-box">
-                          <div class="shop-product-card-box-row">
+                        <div class="product-cart-card-box">
+                          <div class="product-cart-card-box-row">
   
-                            <div class="shop-product-thumb-div">
+                            <div class="product-cart-thumb-div">
                               <div class="img-div">
                                 <img src="assets/images/default-photo-img.jpg" alt="img" class="img-fluid img-sp" />
                               </div>
@@ -150,14 +150,55 @@
                                 <div class="sp-desc-top-div">
                                   <div class="sp-desc-top-left-div">
                                     <h3> <a href="#" class="link">Item Name</a> </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
                                   </div>
                                   <div class="sp-desc-top-right-div">
                                     <div class="sp-money-div">
                                       <h4>S$248</h4>
                                     </div>
-                                    <div class="button-div">
-                                      <a href="#" class="btn btn-white btn-white-outline btn-add-cart">ADD TO CART</a>
+                                    <div class="add-pm-button-div">
+                                      <div class="add-pm-btn-group">
+                                        <div class="button-container">
+                                          <button class="btn-pm cart-qty-minus" type="button" value="-">-</button>
+                                          <input type="text" name="qty" class="qty form-control-pm" maxlength="12" value="0" class="input-text qty" />
+                                          <button class="btn-pm cart-qty-plus" type="button" value="+">+</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+  
+                          </div>
+                        </div>
+
+                        <div class="product-cart-card-box">
+                          <div class="product-cart-card-box-row">
+  
+                            <div class="product-cart-thumb-div">
+                              <div class="img-div">
+                                <img src="assets/images/default-photo-img.jpg" alt="img" class="img-fluid img-sp" />
+                              </div>
+                            </div>
+  
+                            <div class="sp-desc-div">
+                              <div class="sp-desc-row-div">
+                                <div class="sp-desc-top-div">
+                                  <div class="sp-desc-top-left-div">
+                                    <h3> <a href="#" class="link">Item Name</a> </h3>
+                                  </div>
+                                  <div class="sp-desc-top-right-div">
+                                    <div class="sp-money-div">
+                                      <h4>S$248</h4>
+                                    </div>
+                                    <div class="add-pm-button-div">
+                                      <div class="add-pm-btn-group">
+                                        <div class="button-container">
+                                          <button class="btn-pm cart-qty-minus" type="button" value="-">-</button>
+                                          <input type="text" name="qty" class="qty form-control-pm" maxlength="12" value="0" class="input-text qty" />
+                                          <button class="btn-pm cart-qty-plus" type="button" value="+">+</button>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
@@ -525,6 +566,7 @@
   <script src="assets/js/select2.full.js"></script>
   <script src="assets/js/get-flag.js"></script>
   <script src="assets/js/jquery.mask.js"></script>
+  <script src="assets/js/inc-dec-button.js"></script>
   <script src="assets/js/custom.js"></script>
 
   <script>
