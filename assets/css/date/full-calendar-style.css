@@ -145,11 +145,11 @@
 
 .full-calendar-custom-div .fc-widget-content {
   /* <td>, usually */
-  border: 1px solid #efefef;
+  border: 1px solid rgba(239, 239, 239, 0.7);
 }
 
 .full-calendar-custom-div .fc-widget-header {
-  border-bottom: 1px solid #efefef;
+  border-bottom: 1px solid rgba(239, 239, 239, 0.7);
 }
 
 .full-calendar-custom-div .fc-state-highlight {
@@ -160,7 +160,7 @@
 
 .full-calendar-custom-div .fc-state-highlight > div > div.fc-day-number {
   background-color: #f91a6c;
-  color: #ffffff;
+  color: #fff;
   border-radius: 50%;
   margin: 4px;
 }
@@ -433,7 +433,7 @@
 
 .full-calendar-custom-div .fc-border-separate tr.fc-last th {
   border-bottom-width: 1px;
-  border-color: #efefef;
+  border-color: rgba(239, 239, 239, 0.7);
   font-size: 16px;
   font-weight: 300;
   line-height: 30px;
@@ -460,6 +460,7 @@
 .full-calendar-custom-div .fc-grid .fc-day-number {
   float: right;
   padding: 0 2px;
+  color: #8a888a;
 }
 
 .full-calendar-custom-div .fc-grid .fc-other-month .fc-day-number {
@@ -638,7 +639,7 @@
 
 .full-calendar-custom-div .fc-week .fc-day > div .fc-day-number {
   margin: 2px;
-  min-width: 29px;
+  min-width: 28px;
   padding: 6px;
   font-weight: 400;
   font-size: 14px;
@@ -654,7 +655,7 @@
 .full-calendar-custom-div .fc-week .fc-day:hover .fc-day-number {
   background-color: #b8b8b8;
   border-radius: 50%;
-  color: #ffffff;
+  color: #fff;
   -webkit-transition: background-color 0.2s;
   transition: background-color 0.2s;
 }
@@ -664,7 +665,7 @@
 }
 
 .full-calendar-custom-div .fc-button-today {
-  border: 1px solid #efefef;
+  border: 1px solid rgba(239, 239, 239, 0.7);
 }
 
 .full-calendar-custom-div .fc-view-agendaDay thead tr.fc-first .fc-widget-header {
@@ -723,7 +724,7 @@
   /* 		float: right; */
   margin: 0 auto;
   width: 900px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 6px;
   -webkit-box-shadow: 0 1px 2px #c3c3c3;
           box-shadow: 0 1px 2px #c3c3c3;

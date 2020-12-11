@@ -119,10 +119,10 @@
   /* <th>, usually */
   .fc-widget-content {
     /* <td>, usually */
-    border: 1px solid #efefef;
+    border: 1px solid rgba(239, 239, 239, 0.7);
   }
   .fc-widget-header {
-    border-bottom: 1px solid #efefef;
+    border-bottom: 1px solid rgba(239, 239, 239, 0.7);
   }
   .fc-state-highlight {
     /* <td> today cell */ /* TODO: add .fc-today to <th> */
@@ -131,7 +131,7 @@
 
   .fc-state-highlight > div > div.fc-day-number {
     background-color: #f91a6c;
-    color: #ffffff;
+    color: #fff;
     border-radius: 50%;
     margin: 4px;
   }
@@ -409,7 +409,7 @@
   }
   .fc-border-separate tr.fc-last th {
     border-bottom-width: 1px;
-    border-color: #efefef;
+    border-color: rgba(239, 239, 239, 0.7);
     font-size: 16px;
     font-weight: 300;
     line-height: 30px;
@@ -438,6 +438,7 @@
   .fc-grid .fc-day-number {
     float: right;
     padding: 0 2px;
+    color: #8a888a;
   }
 
   .fc-grid .fc-other-month .fc-day-number {
@@ -629,7 +630,7 @@
 
   .fc-week .fc-day > div .fc-day-number {
     margin: 2px;
-    min-width: 29px;
+    min-width: 28px;
     padding: 6px;
     font-weight: 400;
     font-size: 14px;
@@ -644,14 +645,14 @@
   .fc-week .fc-day:hover .fc-day-number {
     background-color: #b8b8b8;
     border-radius: 50%;
-    color: #ffffff;
+    color: #fff;
     transition: background-color 0.2s;
   }
   .fc-week .fc-day.fc-state-highlight:hover .fc-day-number {
     background-color: #54c801;
   }
   .fc-button-today {
-    border: 1px solid #efefef;
+    border: 1px solid rgba(239, 239, 239, 0.7);
   }
   .fc-view-agendaDay thead tr.fc-first .fc-widget-header {
     text-align: right;
@@ -710,7 +711,7 @@
     /* 		float: right; */
     margin: 0 auto;
     width: 900px;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 6px;
     box-shadow: 0 1px 2px #c3c3c3;
   }

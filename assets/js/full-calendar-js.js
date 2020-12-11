@@ -26,15 +26,15 @@ $(document).ready(function () {
 
   var calendar = $("#calendar").fullCalendar({
     header: {
-      left: "title_heading",
+      left: "",
       center: "",
-      center: "agendaDay,agendaWeek,month",
+      // center: "agendaDay,agendaWeek,month",
       right: "prev,title,next",
       // right: "prev,next today",
     },
-    editable: true,
+    editable: false,
     firstDay: 1, //  1(Monday) this can be changed to 0(Sunday) for the USA system
-    selectable: true,
+    selectable: false,
     defaultView: "month",
     axisFormat: "h:mm",
     columnFormat: {
@@ -50,19 +50,19 @@ $(document).ready(function () {
     },
     allDaySlot: false, //cambie a true
     selectHelper: true,
-    dayClick: function (date, allDay, jsEvent, view) {
-      if (allDay) {
-        // Clicked on the day number
-        calendar
-          .fullCalendar("changeView", "agendaDay" /* or 'basicDay' */)
-          .fullCalendar(
-            "gotoDate",
-            date.getFullYear(),
-            date.getMonth(),
-            date.getDate()
-          );
-      }
-    },
+    // dayClick: function (date, allDay, jsEvent, view) {
+    //   if (allDay) {
+    //     // Clicked on the day number
+    //     calendar
+    //       .fullCalendar("changeView", "agendaDay" /* or 'basicDay' */)
+    //       .fullCalendar(
+    //         "gotoDate",
+    //         date.getFullYear(),
+    //         date.getMonth(),
+    //         date.getDate()
+    //       );
+    //   }
+    // },
     select: function (startDate, endDate, allDay) {
       if (!allDay) {
         swal({
@@ -144,7 +144,7 @@ $(document).ready(function () {
       },
     ],
   });
-});
+  });
 /*!
  * FullCalendar v1.6.4
  * Docs & License: http://arshaw.com/fullcalendar/
@@ -163,9 +163,11 @@ $(document).ready(function () {
     defaultView: "month",
     aspectRatio: 1.4,
     header: {
-      left: "title",
+      left: "",
       center: "",
-      right: "today prev,next",
+      // center: "agendaDay,agendaWeek,month",
+      right: "prev,title,next",
+      // right: "prev,next today",
     },
     weekends: true,
     weekNumbers: false,
@@ -243,10 +245,14 @@ $(document).ready(function () {
     ],
     dayNamesShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
     buttonText: {
-      prev: "<span class='fc-text-arrow'><i class='las la-angle-left'></i></span>",
-      next: "<span class='fc-text-arrow'><i class='las la-angle-right'></i></span>",
-      prevYear: "<span class='fc-text-arrow'><i class='las la-angle-double-left'></i></span>",
-      nextYear: "<span class='fc-text-arrow'><i class='las la-angle-double-right'></i></span>",
+      prev:
+        "<span class='fc-text-arrow'><i class='las la-angle-left'></i></span>",
+      next:
+        "<span class='fc-text-arrow'><i class='las la-angle-right'></i></span>",
+      prevYear:
+        "<span class='fc-text-arrow'><i class='las la-angle-double-left'></i></span>",
+      nextYear:
+        "<span class='fc-text-arrow'><i class='las la-angle-double-right'></i></span>",
       today: "today",
       month: "month",
       week: "week",
@@ -276,10 +282,14 @@ $(document).ready(function () {
       right: "title",
     },
     buttonText: {
-      prev: "<span class='fc-text-arrow'><i class='las la-angle-left'></i></span>",
-      next: "<span class='fc-text-arrow'><i class='las la-angle-right'></i></span>",
-      prevYear: "<span class='fc-text-arrow'><i class='las la-angle-double-left'></i></span>",
-      nextYear: "<span class='fc-text-arrow'><i class='las la-angle-double-right'></i></span>",
+      prev:
+        "<span class='fc-text-arrow'><i class='las la-angle-left'></i></span>",
+      next:
+        "<span class='fc-text-arrow'><i class='las la-angle-right'></i></span>",
+      prevYear:
+        "<span class='fc-text-arrow'><i class='las la-angle-double-left'></i></span>",
+      nextYear:
+        "<span class='fc-text-arrow'><i class='las la-angle-double-right'></i></span>",
     },
     buttonIcons: {
       prev: "circle-triangle-e",

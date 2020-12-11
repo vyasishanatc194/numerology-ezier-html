@@ -444,6 +444,10 @@
   display: none;
 }
 
+.no-drop-icon-select2 .select-custom2 .select2-container--default .select2-selection--single .select2-selection__arrow b::before {
+  opacity: 0;
+}
+
 @media (max-width: 767px) {
   .select2-results__option {
     padding: 8px 20px;
