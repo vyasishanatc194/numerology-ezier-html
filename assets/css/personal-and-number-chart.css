@@ -249,7 +249,7 @@
 }
 
 .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .whi-card-number-box .whi-card-number-box-row .whi-card-number-box-col.br-0 {
-  border-right: 0px;
+  border-right: 0;
 }
 
 .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .whi-card-number-box .whi-card-number-box-row .whi-card-number-box-col.whi-card-number-120 {
@@ -383,6 +383,8 @@
 }
 
 .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-code-info-row .code-info-box-root .code-info-box-row .code-info-box-left .code-box-box {
+  height: 100%;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -392,12 +394,6 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   font-weight: 800;
@@ -623,7 +619,7 @@
   }
   .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .whi-card-number-box .whi-card-number-box-row .whi-card-number-box-col.whi-card-number-110 {
     height: 56px;
-    border-top: 0px solid #1e6900;
+    border-top: 0 solid #1e6900;
   }
   .personal-chart-view-root .personal-chart-card-grid .personal-chart-card-grid-in .pchart-row05 .whi-card-number-box .whi-card-number-box-row .whi-card-number-box-col.whi-card-number-110 h2 {
     padding: 3px 0 0 0;

@@ -314,7 +314,7 @@
   color: #fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
-.bootstrap-datetimepicker-widget table td.active.today:before {
+.bootstrap-datetimepicker-widget table td.active.today::before {
   border-bottom-color: #fff;
 }
 .bootstrap-datetimepicker-widget table td.disabled,

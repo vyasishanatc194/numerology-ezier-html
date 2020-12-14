@@ -4,8 +4,7 @@
  * (c) 2013 Adam Shaw
  */
 .full-calendar-custom-div {
-  /* Header
-  ------------------------------------------------------------------------*/
+  /* Header ------------------------------------------------------------------------ */
   /* buttons edges butting together */
   /* button layering (for border precedence) */
   /* Content
@@ -25,10 +24,8 @@
   /* Horizontal Events
   ------------------------------------------------------------------------*/
   /* resizable */
-  /* Reusable Separate-border Table
-  ------------------------------------------------------------*/
-  /* Month View, Basic Week View, Basic Day View
-  ------------------------------------------------------------------------*/
+  /* Reusable Separate-border Table ------------------------------------------------------------ */
+  /* Month View, Basic Week View, Basic Day View ------------------------------------------------------------------------ */
   /* event styles */
   /* right-to-left */
   /* Agenda Week View, Agenda Day View
@@ -40,7 +37,7 @@
   /* Vertical Events
   ------------------------------------------------------------------------*/
   /* resizable */
-  /*estilossss */
+  /* estilossss */
 }
 
 .full-calendar-custom-div .fc {
@@ -67,7 +64,7 @@
 
 .full-calendar-custom-div .fc-header td {
   white-space: nowrap;
-  padding: 15px 10px 0px;
+  padding: 15px 10px 0;
 }
 
 .full-calendar-custom-div .fc-header-left {
@@ -105,9 +102,6 @@
 .full-calendar-custom-div .fc-header .fc-button {
   margin-bottom: 1em;
   vertical-align: top;
-}
-
-.full-calendar-custom-div .fc-header .fc-button {
   margin-right: -1px;
 }
 
@@ -359,9 +353,7 @@
   overflow: hidden;
   /* hacky spaces (IE6/7) */
   font-size: 300%;
-  /* */
   line-height: 50%;
-  /* */
 }
 
 .full-calendar-custom-div .fc-event-hori {

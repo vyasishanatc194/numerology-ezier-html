@@ -1153,7 +1153,7 @@ body {
   font-weight: 500;
   line-height: 50px;
   font-size: 10px;
-  color: #888888;
+  color: #888;
   letter-spacing: 0.21px;
   text-align: center;
   text-transform: uppercase;
@@ -1246,8 +1246,8 @@ body {
 }
 
 .full-calendar-custom-div .fc-view {
-  -webkit-box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.04);
-          box-shadow: 0px 6px 20px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.04);
 }
 
 .full-calendar-custom-div .fc-view.fc-view-month.fc-grid .fc-event-time {
@@ -1384,7 +1384,7 @@ body {
     font-size: 11px;
   }
   .full-calendar-custom-div .fc-event-hori {
-    padding: 0px 5px;
+    padding: 0 5px;
     min-height: 19px;
     border-left: 2px solid !important;
   }
@@ -1422,8 +1422,7 @@ body {
     display: block;
   }
   .full-calendar-custom-div .fc-header td {
-    padding: 10px 10px 0px;
-    display: block;
+    padding: 10px 10px 0;
     width: 50%;
     text-align: center;
     display: inline-block;
@@ -1537,7 +1536,7 @@ body {
     font-size: 24px;
   }
   .full-calendar-custom-div .fc-event-hori {
-    padding: 0px 5px;
+    padding: 0 5px;
     min-height: 24px;
     border-left: 2px solid !important;
   }
@@ -1548,7 +1547,7 @@ body {
     font-size: 18px;
   }
   .full-calendar-custom-div .fc-header td {
-    padding: 10px 10px 0px;
+    padding: 10px 10px 0;
   }
   .full-calendar-custom-div .fc-header .fc-header-center span.fc-button {
     padding: 2px 8px 2px 8px;

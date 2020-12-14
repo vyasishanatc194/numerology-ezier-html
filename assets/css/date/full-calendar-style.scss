@@ -27,12 +27,11 @@
     vertical-align: top;
   }
 
-  /* Header
-  ------------------------------------------------------------------------*/
+  /* Header ------------------------------------------------------------------------ */
 
   .fc-header td {
     white-space: nowrap;
-    padding: 15px 10px 0px;
+    padding: 15px 10px 0;
   }
 
   .fc-header-left {
@@ -70,14 +69,10 @@
   .fc-header .fc-button {
     margin-bottom: 1em;
     vertical-align: top;
-  }
-
-  /* buttons edges butting together */
-
-  .fc-header .fc-button {
     margin-right: -1px;
   }
 
+  /* buttons edges butting together */
   .fc-header .fc-corner-right,  /* non-theme */
   .fc-header .ui-corner-right {
     /* theme */
@@ -212,6 +207,7 @@
     border-color: #54c801;
     color: #54c801;
   }
+
   .fc-button-month.fc-state-default,
   .fc-button-agendaWeek.fc-state-default,
   .fc-button-agendaDay.fc-state-default {
@@ -220,6 +216,7 @@
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
   }
+
   .fc-state-hover,
   .fc-state-down,
   .fc-state-active,
@@ -330,8 +327,8 @@
     position: absolute;
     z-index: 99999;
     overflow: hidden; /* hacky spaces (IE6/7) */
-    font-size: 300%; /* */
-    line-height: 50%; /* */
+    font-size: 300%;
+    line-height: 50%;
   }
 
   /* Horizontal Events
@@ -382,8 +379,7 @@
     _padding-bottom: 14px; /* IE6 had 0 height */
   }
 
-  /* Reusable Separate-border Table
-  ------------------------------------------------------------*/
+  /* Reusable Separate-border Table ------------------------------------------------------------ */
 
   table.fc-border-separate {
     border-collapse: separate;
@@ -399,14 +395,14 @@
     border-right-width: 1px;
   }
 
-  .fc-border-separate tr.fc-last td {
-  }
   .fc-border-separate .fc-week .fc-first {
     border-left: 0;
   }
+
   .fc-border-separate .fc-week .fc-last {
     border-right: 0;
   }
+
   .fc-border-separate tr.fc-last th {
     border-bottom-width: 1px;
     border-color: rgba(239, 239, 239, 0.7);
@@ -414,13 +410,13 @@
     font-weight: 300;
     line-height: 30px;
   }
+
   .fc-border-separate tbody tr.fc-first td,
   .fc-border-separate tbody tr.fc-first th {
     border-top-width: 0;
   }
 
-  /* Month View, Basic Week View, Basic Day View
-  ------------------------------------------------------------------------*/
+  /* Month View, Basic Week View, Basic Day View ------------------------------------------------------------------------ */
 
   .fc-grid th {
     text-align: center;
@@ -470,8 +466,7 @@
     float: right;
   }
 
-  /* Agenda Week View, Agenda Day View
-  ------------------------------------------------------------------------*/
+  /* Agenda Week View, Agenda Day View ------------------------------------------------------------------------ */
 
   .fc-agenda table {
     border-collapse: separate;
@@ -659,7 +654,7 @@
     padding-right: 10px;
   }
 
-  /*estilossss */
+  /* estilossss */
   body {
     margin-top: 40px;
     text-align: center;
