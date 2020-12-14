@@ -265,6 +265,10 @@
   border: 1px solid #57d500;
 }
 
+.select2-custom-fg .active-flag-select2-dropdown.select2-container--open {
+  margin: 0 0 0 0;
+}
+
 .country-select-group .flag {
   border-radius: 0;
   border: none;

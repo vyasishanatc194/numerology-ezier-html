@@ -486,7 +486,12 @@
         });
         /* End of Time picker */
 
+        //add title in calendar
+        $('#calendar').fullCalendar( 'render' ); 
         $(".full-calendar-custom-div .fc-header td.fc-header-left").html("<h2>Availability Calendar</h2>");
+        $(".fc-header-right .fc-button, .fc-header-right .fc-button-prev, .fc-header-right.fc-button-next").click(function() {
+          $(".full-calendar-custom-div .fc-header td.fc-header-left").html("<h2>Availability Calendar</h2>");
+        });
     });
   </script>
 
